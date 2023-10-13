@@ -1,0 +1,50 @@
+body{
+  background-color: #d6eadf; 
+  text-align: center;
+  padding: 50px; 
+}
+form{
+    /* background-color: yellowgreen; */
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#cocktails-input{
+width: 500px;
+padding: 15px;
+border-radius: 7px;
+border: 2px solid #ccc;
+outline: none;
+}
+#cocktails-btn{
+    padding: 10px;
+    background-color: #809bce;
+    color: #fff;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    transition: all 300ms ease;
+    text-transform: uppercase;
+}
+#cocktails-btn:hover{
+    background-color: #fff;
+    color: #809bce;
+}
+#cocktails{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    margin-top: 2rem;
+
+}
+li{
+    background-color: #fca311;
+    color: #fff;
+    border-radius: 10px;
+
+}
+img{
+    border-radius: 10px;
+    width: 100%;
+}
+
